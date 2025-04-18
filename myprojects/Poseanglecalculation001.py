@@ -1,5 +1,24 @@
-import torch
+print("Hello World")
+import torch 
+print(torch.__version__)
+
 import cv2
+print("cv2 version: ", cv2.__version__)
+# Check if CUDA is available and print the version
+if torch.cuda.is_available():
+    print("CUDA is available!")
+    print("CUDA version:", torch.version.cuda)
+else:
+    print("CUDA is not available. Using CPU instead.")
+# Check if GPU is available and print the device name
+if torch.cuda.is_available():
+    gpu_device = torch.cuda.get_device_name(0)
+    print("GPU device:", gpu_device)
+else:
+    print("No GPU found. Using CPU.")
+# Check if the GPU is available and print its name  
+
+
 import math
 import matplotlib.pyplot as plt
 from ultralytics import YOLO
@@ -12,6 +31,7 @@ def calculate_angle(v1, v2):
 
 # Load the YOLO model
 model = YOLO('yolo11x-pose.pt')
+print(" Model sollte jetzt geladen sein")
 
 # Run inference with stream=True
 results = model.predict(
