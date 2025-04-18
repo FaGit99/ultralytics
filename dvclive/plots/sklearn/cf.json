@@ -1,0 +1,82 @@
+[
+    {
+        "actual": "person",
+        "predicted": "person"
+    },
+    {
+        "actual": "person",
+        "predicted": "person"
+    },
+    {
+        "actual": "person",
+        "predicted": "person"
+    },
+    {
+        "actual": "person",
+        "predicted": "person"
+    },
+    {
+        "actual": "person",
+        "predicted": "background"
+    },
+    {
+        "actual": "person",
+        "predicted": "background"
+    },
+    {
+        "actual": "person",
+        "predicted": "background"
+    },
+    {
+        "actual": "person",
+        "predicted": "background"
+    },
+    {
+        "actual": "person",
+        "predicted": "background"
+    },
+    {
+        "actual": "person",
+        "predicted": "background"
+    },
+    {
+        "actual": "dog",
+        "predicted": "dog"
+    },
+    {
+        "actual": "horse",
+        "predicted": "horse"
+    },
+    {
+        "actual": "horse",
+        "predicted": "horse"
+    },
+    {
+        "actual": "elephant",
+        "predicted": "elephant"
+    },
+    {
+        "actual": "elephant",
+        "predicted": "background"
+    },
+    {
+        "actual": "umbrella",
+        "predicted": "umbrella"
+    },
+    {
+        "actual": "potted plant",
+        "predicted": "background"
+    },
+    {
+        "actual": "background",
+        "predicted": "person"
+    },
+    {
+        "actual": "background",
+        "predicted": "elephant"
+    },
+    {
+        "actual": "background",
+        "predicted": "suitcase"
+    }
+]
